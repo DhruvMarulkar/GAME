@@ -24,7 +24,7 @@ def next_turn(row, column):
             buttons[row][column]['text'] = player
 
             if check_winner() is False:
-                player =
+                player = players[0]
                 label.config(text=(players[0] + " turn"))
 
             elif check_winner() is True:
