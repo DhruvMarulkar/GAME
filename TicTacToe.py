@@ -40,7 +40,7 @@ def check_winner():
             return True
 
     for column in range(3):
-        if buttons[column][0]['text'] == buttons[column][1]['text'] == buttons[column][2]['text'] != "":
+        if buttons[0][column]['text'] == buttons[1][column]['text'] == buttons[2][column]['text'] != "":
             return True
 
     if buttons[0][0]['text'] == buttons[1][1]['text'] == buttons[2][2]['text'] != "":
